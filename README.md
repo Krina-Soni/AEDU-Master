@@ -1,2 +1,1 @@
-# AEDU-Master
-Addweb project
+# aedu-automation

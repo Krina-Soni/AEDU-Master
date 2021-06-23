@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression suite">
+    <test verbose="2" name="LoginTest">
+        <classes>
+            <class name="AEDU.Reports.ReportClass"/>
+           <class name="AEDU.Testcases.Basecase"/>
+            <class name="AEDU.Testcases.StudentAdmission"/>
+           <class name="AEDU.Testcases.Student_Search"/>
+           <class name="AEDU.Testcases.AddStudents"/>
+            <class name="AEDU.Testcases.Category"/>
+           <class name="AEDU.Testcases.PromoteStudent"/>
+            <class name="AEDU.Testcases.ClassTimeTables"/>
+            <class name="AEDU.Testcases.AssignSubjects"/>
+            <class name="AEDU.Testcases.Academics_Subjects"/>
+            <class name="AEDU.Testcases.Academics_Teachers"/>
+            <class name="AEDU.Testcases.ClassT"/>
+            <class name="AEDU.Testcases.SectionTest"/>
+            <class name="AEDU.Testcases.StudentAttendanceTest"/>
+            <class name="AEDU.Testcases.Attendance_Report"/>
+            <class name="AEDU.Testcases.CircularLists"/>
+            <class name="AEDU.Testcases.CircularForStaff"/>
+            <class name="AEDU.Testcases.Circular_Parent"/>
+            <class name="AEDU.Testcases.Admission_Enquiry"/>
+            <class name="AEDU.Testcases.Visitor_Book"/>
+            <class name="AEDU.Testcases.phoneCall_cases"/>
+            <class name="AEDU.Testcases.Postal"/>
+            <class name="AEDU.Testcases.PostalReceive"/>
+            <class name="AEDU.Testcases.Complaint"/>
+            <class name="AEDU.Testcases.setUpFrontOffice_cases"/>
+            <class name="AEDU.Testcases.receptionist"/>
+            <class name="AEDU.Testcases.TestExamList"/>
+        </classes>
+    </test>
+</suite>
